@@ -9,7 +9,7 @@ import java.util.Map;
  * @date 2019/9/12 11:09 上午
  */
 @Data
-public class InsertRequest {
+public class InsertRequest extends Request {
     String table;
     Map<String,String> values;
 }

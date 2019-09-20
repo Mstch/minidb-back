@@ -16,6 +16,7 @@ public class Transactions {
     public static AtomicLong incrId = new AtomicLong(1);
     public static Map<Long, Channel> transactionMap = new HashMap<>();
 
+
     public static Long begin(Channel channel) {
         Long id = incrId.incrementAndGet();
         transactionMap.put(id, channel);

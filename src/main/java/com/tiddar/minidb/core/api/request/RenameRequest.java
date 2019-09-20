@@ -7,7 +7,7 @@ import lombok.Data;
  * @date 2019/9/19 10:45 上午
  */
 @Data
-public class RenameRequest {
+public class RenameRequest extends Request {
     String oldName;
     String newName;
 }

@@ -2,6 +2,7 @@ package com.tiddar.minidb.core.api;
 
 import com.tiddar.minidb.core.api.request.InsertRequest;
 import com.tiddar.minidb.core.api.request.SelectRequest;
+import com.tiddar.minidb.core.api.request.UpdateRequest;
 import com.tiddar.minidb.core.model.Result;
 
 /**
@@ -14,9 +15,9 @@ public interface DML {
 
     Result select(SelectRequest request);
 
-    int update();
+    int update(UpdateRequest request);
 
-    int delete();
+    int delete(SelectRequest request);
 
 
 }

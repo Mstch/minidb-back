@@ -7174,3 +7174,59 @@ Caused by: io.netty.util.IllegalReferenceCountException: refCnt: 0, decrement: 1
 2019.09.12 at 17:35:41 CST INFO  io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0xa587823e, L:/127.0.0.1:56855 - R:/127.0.0.1:8001] READ COMPLETE
 2019.09.12 at 17:35:41 CST INFO  io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0xa587823e, L:/127.0.0.1:56855 ! R:/127.0.0.1:8001] INACTIVE
 2019.09.12 at 17:35:41 CST INFO  io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0xa587823e, L:/127.0.0.1:56855 ! R:/127.0.0.1:8001] UNREGISTERED
+2019.09.20 at 11:59:42 CST DEBUG io.netty.util.internal.logging.InternalLoggerFactory 51 newDefaultFactory - Using Log4J2 as the default logging framework
+2019.09.20 at 11:59:42 CST DEBUG io.netty.channel.MultithreadEventLoopGroup 44 <clinit> - -Dio.netty.eventLoopThreads: 8
+2019.09.20 at 11:59:42 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 54 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019.09.20 at 11:59:42 CST DEBUG io.netty.util.internal.InternalThreadLocalMap 57 <clinit> - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019.09.20 at 11:59:42 CST DEBUG io.netty.channel.nio.NioEventLoop 106 <clinit> - -Dio.netty.noKeySetOptimization: false
+2019.09.20 at 11:59:42 CST DEBUG io.netty.channel.nio.NioEventLoop 107 <clinit> - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 996 isOsx0 - Platform: MacOS
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 395 explicitNoUnsafeCause0 - -Dio.netty.noUnsafe: false
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 851 javaVersion0 - Java version: 8
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 120 <clinit> - sun.misc.Unsafe.theUnsafe: available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 144 <clinit> - sun.misc.Unsafe.copyMemory: available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 182 <clinit> - java.nio.Buffer.address: available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 243 <clinit> - direct buffer constructor: available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 313 <clinit> - java.nio.Bits.unaligned: available, true
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 378 <clinit> - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent0 385 <clinit> - java.nio.DirectByteBuffer.<init>(long, int): available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 1028 unsafeUnavailabilityCause0 - sun.misc.Unsafe: available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 1147 tmpdir0 - -Dio.netty.tmpdir: /var/folders/pc/zw4jyvb54qd46k_n145q8p640000gn/T (java.io.tmpdir)
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 1226 bitMode0 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 173 <clinit> - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 180 <clinit> - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.CleanerJava6 92 <clinit> - java.nio.ByteBuffer.cleaner(): available
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent 200 <clinit> - -Dio.netty.noPreferDirect: false
+2019.09.20 at 11:59:43 CST DEBUG io.netty.util.internal.PlatformDependent$Mpsc 890 <clinit> - org.jctools-core.MpscChunkedArrayQueue: available
+2019.09.20 at 11:59:48 CST DEBUG io.netty.channel.DefaultChannelId 79 <clinit> - -Dio.netty.processId: 16810 (auto-detected)
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.NetUtil 139 <clinit> - -Djava.net.preferIPv4Stack: false
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.NetUtil 140 <clinit> - -Djava.net.preferIPv6Addresses: false
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.NetUtil 224 <clinit> - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.NetUtil$1 289 run - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2019.09.20 at 11:59:48 CST DEBUG io.netty.channel.DefaultChannelId 101 <clinit> - -Dio.netty.machineId: 8c:85:90:ff:fe:93:bb:0c (auto-detected)
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.ResourceLeakDetector 129 <clinit> - -Dio.netty.leakDetection.level: simple
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.ResourceLeakDetector 130 <clinit> - -Dio.netty.leakDetection.targetRecords: 4
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 142 <clinit> - -Dio.netty.allocator.numHeapArenas: 8
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 143 <clinit> - -Dio.netty.allocator.numDirectArenas: 8
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 145 <clinit> - -Dio.netty.allocator.pageSize: 8192
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 150 <clinit> - -Dio.netty.allocator.maxOrder: 11
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 154 <clinit> - -Dio.netty.allocator.chunkSize: 16777216
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 155 <clinit> - -Dio.netty.allocator.tinyCacheSize: 512
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 156 <clinit> - -Dio.netty.allocator.smallCacheSize: 256
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 157 <clinit> - -Dio.netty.allocator.normalCacheSize: 64
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 158 <clinit> - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 159 <clinit> - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 160 <clinit> - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 161 <clinit> - -Dio.netty.allocator.useCacheForAllThreads: true
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.PooledByteBufAllocator 162 <clinit> - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.ByteBufUtil 85 <clinit> - -Dio.netty.allocator.type: pooled
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.ByteBufUtil 94 <clinit> - -Dio.netty.threadLocalDirectBufferSize: 0
+2019.09.20 at 11:59:48 CST DEBUG io.netty.buffer.ByteBufUtil 97 <clinit> - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0x03f7c58d] REGISTERED
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0x03f7c58d] BIND: 0.0.0.0/0.0.0.0:8002
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0x03f7c58d, L:/0:0:0:0:0:0:0:0:8002] ACTIVE
+2019.09.20 at 11:59:48 CST INFO  com.tiddar.minidb.core.sync.SyncServer 37 lambda$start$0 - sync服务启动成功!
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0x041c1b0f] REGISTERED
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0x041c1b0f] BIND: 0.0.0.0/0.0.0.0:8082
+2019.09.20 at 11:59:48 CST INFO  com.tiddar.minidb.core.server.Server 39 lambda$start$0 - 主服务启动成功!
+2019.09.20 at 11:59:48 CST DEBUG io.netty.util.internal.logging.Log4J2Logger 99 log - [id: 0x041c1b0f, L:/0:0:0:0:0:0:0:0:8082] ACTIVE

@@ -10,7 +10,7 @@ import java.util.List;
  * @date 2019/9/6 6:23 下午
  */
 @Data
-public class CreateTableRequest {
+public class CreateTableRequest extends Request{
     private String name;
     private List<Col> columns;
     private Col key;

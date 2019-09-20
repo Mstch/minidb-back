@@ -3,8 +3,9 @@ package com.tiddar.minidb.core.server;
 import com.google.gson.Gson;
 import com.tiddar.minidb.core.api.Status;
 import com.tiddar.minidb.core.api.impl.StatusImpl;
+import com.tiddar.minidb.core.api.request.InsertRequest;
+import com.tiddar.minidb.core.constant.Commands;
 import com.tiddar.minidb.core.transaction.Transactions;
-import com.tiddar.minidb.core.type.TypeEnum;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -13,7 +14,6 @@ import io.netty.util.CharsetUtil;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 /**
  * @author zhangweichen
@@ -35,14 +35,18 @@ public class ServerHandler extends SimpleChannelInboundHandler<Command> {
         //开启事务
 
 
-        switch (msg.typeEnum) {
+        switch (msg.command) {
             case STATUS:
                 if ("show tables".equals(msg.content)) {
                     ctxWrite(ctx, ctx.alloc().buffer(), gson.toJson(status.showTables()));
                 }
                 break;
-            case DML:
-                break;
+            case INSERT: {
+                InsertRequest insertRequest = gson.fromJson(msg.content, InsertRequest.class);
+                insertRequest.setChannel(ctx.channel());
+                ctxWrite(ctx, ctx.alloc().buffer(), gson.toJson(Commands.commandMap.get("insert").apply(insertRequest)));
+            }
+            break;
             case TRANSACTION: {
                 if ("begin".equals(msg.content)) {
                     if (attrs.get("transaction") != null) {

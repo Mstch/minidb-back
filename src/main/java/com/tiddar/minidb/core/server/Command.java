@@ -5,6 +5,6 @@ package com.tiddar.minidb.core.server;
  * @date 2019/9/11 3:59 下午
  */
 public class Command {
-    CommandTypeEnum typeEnum;
+    CommandTypeEnum command;
     String content;
 }

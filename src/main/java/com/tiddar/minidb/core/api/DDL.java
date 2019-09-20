@@ -1,6 +1,7 @@
 package com.tiddar.minidb.core.api;
 
 import com.tiddar.minidb.core.api.request.CreateTableRequest;
+import com.tiddar.minidb.core.api.request.DropRequest;
 import com.tiddar.minidb.core.api.request.RenameRequest;
 import com.tiddar.minidb.core.model.Table;
 
@@ -20,10 +21,9 @@ public interface DDL {
 
     /**
      * 删除表
-     * @param name
      * @return
      */
-    int drop(String name);
+    int drop(DropRequest request);
 
     /**
      * 改名

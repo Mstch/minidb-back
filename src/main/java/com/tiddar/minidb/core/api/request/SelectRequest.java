@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2019/9/12 3:57 下午
  */
 @Data
-public class SelectRequest {
+public class SelectRequest extends Request {
     private String table;
 
     private List<Where> conditions;

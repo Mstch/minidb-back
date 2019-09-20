@@ -20,7 +20,7 @@ public class SyncDecoder extends MessageToMessageDecoder<ByteBuf> {
     @Override
     protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf byteBuf, List<Object> list) throws Exception {
         String msg = StringUtils.chomp(byteBuf.toString(CharsetUtil.UTF_8));
-        log.info("收到来自{}的消息:{}", channelHandlerContext.channel().remoteAddress(), msg);
+        log.info("收到来自{}的同步消息:{}", channelHandlerContext.channel().remoteAddress(), msg);
         String[] command = msg.split(" ", 4);
         if (command.length != 3 || !Commands.commandSet.contains(command[1])) {
             ByteBuf buf = channelHandlerContext.alloc().buffer();

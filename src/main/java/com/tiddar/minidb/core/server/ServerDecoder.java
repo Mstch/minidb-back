@@ -8,7 +8,6 @@ import io.netty.handler.codec.MessageToMessageDecoder;
 import io.netty.util.CharsetUtil;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.logging.log4j.Marker;
 
 import java.util.List;
 
@@ -30,7 +29,7 @@ public class ServerDecoder extends MessageToMessageDecoder<ByteBuf> {
         try {
             if (STATUS_COMMAND.equals(statusCommand[0])) {
                 Command command = new Command();
-                command.typeEnum = CommandTypeEnum.STATUS;
+                command.command = CommandTypeEnum.STATUS;
                 command.content = source.split(" ", 2)[1];
                 out.add(command);
             }

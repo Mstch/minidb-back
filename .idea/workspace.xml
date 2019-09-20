@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b0f8dca-b6f6-452b-9990-f170d5028a49" name="Default Changelist" comment="" />
+    <list default="true" id="0b0f8dca-b6f6-452b-9990-f170d5028a49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/DropRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/UpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/DDL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/DDL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/DML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/DML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/impl/DMLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/impl/DMLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/CreateTableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/CreateTableRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/InsertRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/InsertRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/RenameRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/RenameRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/SelectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/api/request/SelectRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/constant/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/constant/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/data/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/CommandTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/CommandTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/ServerDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/ServerDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/server/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/sync/SyncDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/sync/SyncDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/transaction/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiddar/minidb/core/transaction/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/BootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/BootStrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/api/DDL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/api/DDL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/api/impl/DDLImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/api/impl/DDLImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/api/request/CreateTableRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/api/request/CreateTableRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/config/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/config/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/constant/Commands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/constant/Commands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/data/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree$InternalNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree$InternalNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree$LeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree$LeafNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/index/BPlusTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/model/Col.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/model/Col.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/model/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/model/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/server/CommandTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/server/CommandTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/server/ServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/server/ServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/server/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/sync/SyncClient$Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/sync/SyncClient$Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/sync/SyncClient$Retry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/sync/SyncClient$Retry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/sync/SyncClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiddar/minidb/core/sync/SyncClient.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +62,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,6 +76,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QSDZiMk2FgZcWdvFm0vZVx3slp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
@@ -41,6 +87,7 @@
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,8 +103,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tiddar.minidb.core.model" />
       <recent name="com.tiddar.minidb.core.api.request" />
+      <recent name="com.tiddar.minidb.core.api" />
+      <recent name="com.tiddar.minidb.core.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.master 8000">
+  <component name="RunManager" selected="Application.slave 8002">
     <configuration name="master 8000" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.tiddar.minidb.core.BootStrap" />
       <module name="minidb" />
@@ -151,12 +199,23 @@
       <workItem from="1567845512000" duration="656000" />
       <workItem from="1568020823249" duration="26811000" />
       <workItem from="1568195296680" duration="8728000" />
-      <workItem from="1568859650288" duration="10342000" />
+      <workItem from="1568859650288" duration="16751000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
